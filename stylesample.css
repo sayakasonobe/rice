@@ -1,0 +1,46 @@
+ul.pulldown_menu_6 {
+list-style: none; /* 先頭記号を消す */
+}
+ul.pulldown_menu_6 li {
+width: 100px; /* リスト項目の幅 */
+}
+ul.pulldown_menu_6 ul {
+display: none; /* 通常は表示しない */
+list-style: none; /* 2段目の先頭記号を消す */
+padding-left: 0px; /* 2段目の左位置を1段目に揃える */
+}
+ul.pulldown_menu_6 li ul {
+display: none; /* 通常は表示しない */
+}
+ul.pulldown_menu_6 li:target > ul {
+display: block; /* クリックしたら表示する */
+position: relative; /* 相対位置で指定 */
+top: -26px; 
+margin-bottom: -26px; 
+}
+ul.pulldown_menu_6 li ul li:first-child > a {/* ダミーの1段目 */
+background: url(image/gradation_red.jpg); /* 通常の背景画像 */
+}
+ul.pulldown_menu_6 a {
+color: white; /* 文字色 */
+display: block; /* ブロックレベルに */
+text-align: center; /* 文字を中央合わせに */
+padding: 5px; /* 内部の余白 */
+border: 1px #9999FF solid; /* 枠線 */
+text-decoration: none; /* 下線を消す */
+outline: none; /* 選択時の点線枠線を消す */
+background: url(image/gradation_red.bmp); /* 通常の背景画像 */
+height: 16px; /* 高さの調整 */
+}
+ul.pulldown_menu_6 ul a {
+background: url(image/gradation_red2.jpg); /* ２段目以降の背景画像 */
+}
+ul.pulldown_menu_6 a:hover, 
+ul.pulldown_menu_6 li ul li:first-child > a:hover {/* マウスカーソルが乗っている状態 */
+background: url(image/gradation_red_R.bmp); /* 通常の背景画像 */
+color: blue; /* 文字色 */
+}
+ul.pulldown_menu_6 a:active {/* マウスがクリックされている状態 */
+background: url(image/gradation_red_R.bmp); /* 通常の背景画像 */
+color: red; /* 文字色 */
+}

@@ -1,0 +1,203 @@
+
+*{
+	margin: 0 auto;
+	padding: 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+body{
+	width: 100%;
+    background-color: #fffbf0;
+}
+
+.red {
+	color: #b50016;
+}
+
+#wrapper{
+	width: 890px;
+}
+
+#header{
+	width: 890px;
+    font-weight: bold;
+	height: 60px;
+	background-color: #fffbf0;
+    position: fixed !important;  
+    position: absolute;
+}
+#main{
+    padding-top: 60px;
+	width: 890px;
+	height: auto;
+	background-color: #fff;
+}
+
+#hooter{
+    font-weight: normal;
+    text-align: center;
+	width: 890px;
+	height: 30px;
+    font-color:#fffbf0;
+    font-size: 10px;
+}
+
+#logo {
+	float: left;
+
+}
+
+#nav {
+	margin-left:20px;
+	margin-top:20px;
+	float: left;
+}
+
+ul {
+    float: left;
+}
+
+li {
+ list-style-type: none;
+    float: left;
+    size: 15px;
+}
+
+#toptext {
+	width: 890px;
+	height: 150px;
+	vertical-align: middle;
+
+}
+#toptext p{
+	font-size: 15px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 300%;
+    padding-top: 10px;
+}
+
+.line {
+	margin: 0 auto;
+    text-align: center;
+    
+}
+
+#yoitoko {
+    height: auto;
+    text-align: center;
+}
+#yoitoko p{
+	line-height: 200%;
+	width:600px;
+    height: auto;
+    text-align: left;
+}
+
+
+#otomo {
+    height: auto;
+    text-align: center;
+}
+
+#maru img {
+    margin: 20px;
+}
+
+
+ #link {
+    height: 270px;
+    text-align: center;
+}
+
+#linkbox1 {
+    float: left;
+    width: 330px;
+    height: 160px;
+    margin: 20px 20px 20px 70px;
+    background-color: #fff;
+    border: 5px solid #fffbf0;
+    border-radius: 12px;
+}
+#linkbox2 {
+    float: left;
+    width: 350px;
+    height: 140px;
+    padding-top:20px;
+    margin: 20px 70px 0px 20px;
+    background-color: #fff;
+    border: 5px solid #fffbf0;
+    border-radius: 12px;
+}
+
+.linkbox p{
+    padding: 10px;
+}
+.linkpicture {
+    float: left;
+    width: 130px;
+    height: 160px;
+}
+
+.linkpicture img{
+    float: left;
+}
+
+#marupicture {
+    width: 180px;
+    float: left;
+}
+
+#marutext {
+    float: left;
+    height: 200px;
+    font-size: 10px;
+    font-weight: bold;
+	text-align: left;
+}
+
+
+#marutext img {
+	margin: 10px;
+}
+
+#marutext p{
+    margin-left: 50px;
+}
+
+#otomonaka {
+    margin: 20px 140px 20px 100px;
+    width: 760px;
+    height: 225px;
+}
+
+#linktext {
+    float: left;
+    height: 160px;
+    font-size: 10px;
+    font-weight: bold;
+	text-align: left;
+}
+
+.content {
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: height 0.3s ease-in-out;
+    transition: height 0.3s ease-in-out;
+}
+.pane:target .content {
+    height: auto;
+}
+
+.content2 {
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: height 0s ease-in-out;
+    transition: height 0s ease-in-out;
+}
+
+.pane2:target .content2 {
+    height: 600px;
+}
+
